@@ -10,4 +10,4 @@
 - [x] Criar um arquivo `README.md` e inserir esse arquivo de texto nele
 - [] Comitar as alterações no Git  
 - [] Enviar as alterações para o repositório remoto no GitHub  (git push)
-- [] Enviar o link do repositório para o professor no ECLASS
+- [x] Enviar o link do repositório para o professor no ECLASS
