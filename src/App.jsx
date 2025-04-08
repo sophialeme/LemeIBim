@@ -1,42 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/Header'
+import Banner from './components/Banner'
+import ProductList from './components/ProductList'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <header class="header">
-        <div class="logo">
-            <img  src="https://img.icons8.com/ios/50/satellites.png" alt="satellites"/>
+      <Header/>
+      <Banner/>
+      <ProductList/>
+      <footer className="footer">
+        <div className="img">
+        <img className="logo" src="https://img.icons8.com/?size=100&id=DMouakoWuTB6&format=png&color=000000"/>
         </div>
-        <div class="icons">
-            <p>Link 1</p>
-            <p>Link 2</p>
+        <div className="sociais2">
+        <div>
+            <ul className="ul2">
+                <li>Nos siga nas redes sociais</li>
+            </ul>
         </div>
-    </header>
-
-    <section class="main-section">
-        <div class="photo">
-            <img src="https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagem de Exemplo" />
+        <div className="sociais">
+        <div className="img">
+            <img className="logo" src="https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF"/>
         </div>
-        <div class="text">
-            <h1>Título da Seção</h1>
-            <p>Este é um texto de exemplo para a seção. Ele pode conter qualquer informação que você queira destacar abaixo da imagem.</p>
+        <div className="img">
+            <img className="logo" src="https://img.icons8.com/?size=100&id=32309&format=png&color=FFFFFF"/>
         </div>
-    </section>
-    <section class="main-section">
-        <div id="text2" class="text">
-            <h1>Título da Seção</h1>
-            <p>Este é um texto de exemplo para a seção. Ele pode conter qualquer informação que você queira destacar abaixo da imagem.</p>
+        <div className="img">
+            <img className="logo" src="https://img.icons8.com/?size=100&id=8808&format=png&color=FFFFFF"/>
         </div>
-    </section>
-
-    <footer class="footer">
-        <p>© 2024 - Todos os direitos reservados.</p>
-    </footer>
+        <div className="img">
+            <img className="logo" src="https://img.icons8.com/?size=100&id=aL0F8ToUoPjC&format=png&color=FFFFFF"/>
+        </div>
+        </div>
+        </div>
+        <div>
+            <ul className="ul2">
+                <li> 872 Morada Feliz - Cidade das Flores</li>
+                <li>MG / 39567 - 123</li>
+            </ul>
+        </div>
+      </footer>
     </>
   )
 }
